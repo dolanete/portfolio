@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    hpe,
+    unity,
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +118,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineering Intern (Full-time)",
+      company_name: "Hewlett Packard Enterprise",
+      icon: hpe,
+      iconBg: "#fff",
+      date: "May 2023 - August 2023",
+      points: [
+        "Used Cypress UI Automation software to automate the validation of HPE’s product configuration software.",
+        "Built the foundation of a product that could reduce the amount of inconsistencies in the configuration tool, saving time and money for the users.",
+        "Utilized Javascript and Cypress plugins",
+        "Worked in agile project management setting",
+        "Used GitHub for Version Control",
+      ],
+    },
+    {
+      title: "Software Engineering Intern (Part-time)",
+      company_name: "Hewlett Packard Enterprise",
+      icon: hpe,
+      iconBg: "#fff",
+      date: "August 2023 - May 2024",
+      points: [
+        "Learned skills including Golang, Kubernetes, Docker, Mockery, Unit test creation, and advanced logging through error codes to contribute to the creation of an IaaS",
+        "Worked with 20 other team members around the world to complete story points and develop software",
+        "Worked in agile project management setting",
+        "Used GitHub for Version Control",
+      ],
+    },
+    {
+      title: "Game Developer",
+      company_name: "Personal Project",
+      icon: unity,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing simple Unity games to enhance game development skills.",
+        "Gaining proficiency in C# and scripting to implement game mechanics and functionality.",
+        "Designing and building game elements, including UI, character controls, and interactive elements.",
+        "Collaborating with artists and designers to create engaging game assets and improve overall game experience."
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

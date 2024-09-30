@@ -11,20 +11,19 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
     hpe,
     unity,
+    cpp,
+    python,
+    golang,
+    cypress,
+    sql,
   } from "../assets";
   
   export const navLinks = [
@@ -63,6 +62,26 @@ import {
   
   const technologies = [
     {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "GoLang",
+      icon: golang,
+    },
+    {
+      name: "Cypress",
+      icon: cypress,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -75,28 +94,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,10 +108,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -157,19 +156,6 @@ import {
         "Collaborating with artists and designers to create engaging game assets and improve overall game experience."
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -201,20 +187,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "3D developer portfolio using Three.js to showcase my skills and projects with dynamic animations and interactive graphics, bringing a unique, immersive experience to my web presence.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
@@ -222,20 +208,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "CatFe",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "CatFe is a game developed using the Unity game engine, providing a flexible and robust platform for creating the game's 2D visuals and mechanics. The project employs C# for scripting, enabling complex game logic and interactions as players manage the cats' tasks and resources.",
       tags: [
         {
-          name: "react",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "c#",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "UI",
           color: "pink-text-gradient",
         },
       ],
@@ -243,20 +229,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "CircuitAI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "CircuitAI is an innovative tool that integrates a large language model (LLM) with a graphical circuit design and simulation platform, allowing users to generate circuit designs based on text-based input. This application streamlines the circuit creation process by translating user requirements into SPICE code, which can then be seamlessly imported into simulation software for further analysis and adjustments.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "LLM",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "AI",
           color: "pink-text-gradient",
         },
       ],

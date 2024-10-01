@@ -1,4 +1,4 @@
-Doby Lanete's Portfolio
+# Doby Lanete's Portfolio
 Welcome to my personal portfolio! This repository showcases a variety of projects I've worked on, demonstrating my skills and experience in computer science, software engineering, game development, UX/UI design, and more.
 
 # React + Vite

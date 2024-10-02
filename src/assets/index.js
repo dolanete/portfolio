@@ -22,9 +22,9 @@ import threejs from "./tech/threejs.svg";
 import hpe from "./company/hpe.png";
 import unity from "./company/unity.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 import cpp from "./tech/cpp.png";
 import python from "./tech/python.png";
@@ -53,9 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   hpe,
   unity,
   cpp,

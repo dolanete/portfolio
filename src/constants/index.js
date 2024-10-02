@@ -13,9 +13,6 @@ import {
     nodejs,
     git,
     docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     hpe,
     unity,
@@ -204,7 +201,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      // image: carrent,
       source_code_link: "https://github.com/",
     },
     {
@@ -225,7 +222,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      // image: jobit,
       source_code_link: "https://github.com/",
     },
     {
@@ -246,7 +243,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      // image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];
